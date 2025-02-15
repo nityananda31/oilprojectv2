@@ -407,6 +407,12 @@
 }
 
 @media (max-width: 575px) {
+    .swiper-button-next:after, .swiper-button-prev:after{
+        font-size: 20px !important;
+    }
+    .swiper-button-next:after, .swiper-button-prev:after{
+        font-size: 20px !important;
+    }
     .navbar {
         padding: 15px 0px;
     }
@@ -414,9 +420,6 @@
         color: #fff;
         border-color: #fff;
         background: #fff;
-    }
-    .navbar-expand-lg .navbar-nav .nav-link {
-        color: #ffffff;
     }
     .header_section {
         background-size: cover;
@@ -535,4 +538,34 @@
     .footer_social_icon {
         text-align: center;
     }
+}
+@media (max-width: 374px) {
+.height-swipper{
+    max-height: 110px;
+}
+}
+@media (min-width: 375px) and (max-width: 424px) {
+.height-swipper{
+    max-height: 130px;
+}
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+    .height-swipper{
+        max-height: 265px;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .height-swipper{
+        max-height: 360px;
+    }
+}
+@media (min-width: 1440px) {
+    .height-swipper{
+        max-height: 500px;
+    }
+}
+@media (min-width: 425px) and (max-width: 767px) {
+.height-swipper{
+    max-height: 145px;
+}
 }
