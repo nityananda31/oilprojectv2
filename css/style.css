@@ -911,7 +911,7 @@ textarea#comment.massage-bt::placeholder {
     width: 100%;
     float: left;
     height: auto;
-    background-image: url(../images/bayi.png);
+    background-image: url(../images/bayi.webp);
     background-size:cover;
     background-position: center;
     padding: 90px 0px 0px 0px;
