@@ -173,7 +173,7 @@
     .about_taital_box {
         width: 500px;
         padding: 40px 20px 30px 20px;
-        top: 1430px;
+        top: 245px;
     }
     .readmore_btn {
         margin-top: 20px;
@@ -242,7 +242,7 @@
     .about_taital_box {
         width: 370px;
         float: left;
-        top: 1960px;
+        top: 75px;
     }
     .about_text {
         font-size: 14px;
@@ -475,7 +475,8 @@
         display: none;
     }
     .about_taital_box {
-        position: inherit;
+        position: inherit !important;
+        top: 10px !important;
     }
     .about_taital {
         font-size: 30px;
@@ -484,7 +485,7 @@
         padding-left: 0;
     }
     .about_taital_box {
-        width: 100%;
+        width: 100% !important;
     }
     .about_taital_1 {
         font-size: 25px;
@@ -559,9 +560,25 @@
         max-height: 360px;
     }
 }
+@media (min-width: 1024px) and (max-width: 1200px) {
+    .mt-produk{
+        padding-top: 5rem;
+    }
+}
+@media (min-width: 1201px) and (max-width: 1439px) {
+    .mt-produk{
+        padding-top: 10rem;
+    }
+    .about_taital_box{
+        top: 300px;
+    }
+}
 @media (min-width: 1440px) {
     .height-swipper{
         max-height: 500px;
+    }
+    .about_taital_box{
+        top: 300px;
     }
 }
 @media (min-width: 425px) and (max-width: 767px) {
